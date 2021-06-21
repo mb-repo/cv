@@ -8,13 +8,14 @@
 }
 
 * {
-    font-family: 'Open Sans', sans-serif;
+ 
+  font-family: 'Open Sans', sans-serif;
 }
 
 body {
   background-color: #181817;
-  margin:0;
-  height:100%;
+  margin: 0;
+  height: 100%;
   padding: 0;
   transition: background-color 1s ease;
 }
@@ -99,6 +100,7 @@ ul li:before {
 }
 
 /* Gradient Scrollbar */
+
 body::-webkit-scrollbar {
   width: 0.5rem;
 }
@@ -414,9 +416,8 @@ main {
   background-repeat: repeat;
   /* Use the text as a mask for the background. */
   /* This will show the gradient as a text color rather than element bg. */
-  
   -webkit-background-clip: text;
-  background-clip:text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
@@ -425,11 +426,9 @@ main {
   text-align: end;
 }
 
-
-a{
-  color:white;
+a {
+  color: white;
 }
-
 
 /* Mark-Highlight */
 
@@ -625,8 +624,8 @@ mark {
   padding-bottom: 160px;
 }
 
-
 /* panel styles */
+
 .panel {
   /* min height incase content is higher than window height */
   min-height: 100vh;
@@ -656,10 +655,8 @@ video {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-
 .marquee {
   width: 100%;
- 
   border-top: 1px solid #000000;
   border-bottom: 1px solid #000000;
   text-align: center;
@@ -706,13 +703,14 @@ video {
   }
 }
 
-.arrow{
+.arrow {
   position: absolute;
   top: 90%;
   left: 80%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
-.arrow span{
+
+.arrow span {
   display: block;
   width: 30px;
   height: 30px;
@@ -722,33 +720,69 @@ video {
   margin: -10px;
   animation: animate 2s infinite;
 }
-.arrow span:nth-child(2){
+
+.arrow span:nth-child(2) {
   animation-delay: -0.2s;
 }
-.arrow span:nth-child(3){
+
+.arrow span:nth-child(3) {
   animation-delay: -0.4s;
 }
+
 @keyframes animate {
-  0%{
-      opacity: 0;
-      transform: rotate(45deg) translate(-20px,-20px);
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
   }
-  50%{
-      opacity: 1;
+  50% {
+    opacity: 1;
   }
-  100%{
-      opacity: 0;
-      transform: rotate(45deg) translate(20px,20px);
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
   }
 }
 
-.quicknav{
+.quicknav {
   position: absolute;
   top: 3%;
   left: 80%;
   width: 23%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   display: flex;
   justify-content: space-evenly;
-  
+}
+
+.skiill.comment {
+  display: none;
+}
+
+.skiill {
+  min-height: 50%;
+  border-left:1px solid #FAC921;
+  background: linear-gradient(to right, #FAC921 50%,#2d2d32  49%);
+  background-size: 200% 200%;
+  background-position:right bottom;
+  transition:all 1s ;
+}
+
+.skiill:hover {
+  background-position:left bottom;
+  transition-duration: 500ms;
+}
+
+.skiill:hover h1 {
+  display: none;
+}
+
+.skiill .comment {
+  display: none;
+}
+
+.skiill:hover .replies {
+  display: none;
+}
+.skiill:hover .comment {
+  display: flex;
+  color:black;
 }
