@@ -8,7 +8,7 @@
 }
 
 * {
- 
+ border: 1px solid red;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -751,6 +751,11 @@ video {
   transform: translate(-50%, -50%);
   display: flex;
   justify-content: space-evenly;
+}
+
+.quicknav span:hover{
+  opacity: 1;
+  color: #FAC921;
 }
 
 .skiill.comment {
