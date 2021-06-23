@@ -910,7 +910,6 @@ video {
 @media (max-width: 50em) {
   * {
     transition: ease all;
-    border: 1px solid red;
   }
   .aboutmetxt {
     width: 40%;
