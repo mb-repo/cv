@@ -55,10 +55,8 @@
     <div class="panel" data-color="black">
       <div class="introAM">
         <p class="outlined">Über Mich.</p>
-        <div
-          style="display: flex; width: 100%; padding-bottom:2rem; overflow:hidden; justify-content: center; align-items: center;">
-
-          <div style="width: 50%; font-size:2.5vw;">
+        <div class="facterinos">
+          <div class="aboutmetxt">
             <div><span>Zunächst ein paar <mark>Fakten</mark> über mich und diese Seite. Nachdem ich vor kurzem meinen
                 Uni-Abschluss erhalten habe und nun auf <mark>Jobsuche</mark> bin, wollte ich die Zwischenzeit nutzen
                 und mir <mark>neue Kenntnisse</mark> im Bereich der Frontend-Entwicklung aneignen. </span>
@@ -67,26 +65,22 @@
                 mich und meine
                 Fähigkeiten ermöglichen. </span></div>
           </div>
-
-          <div style="width: 70%;" data-aos="slide-up">
-
+          <div class="facts" data-aos="slide-up">
             <div class="laptop">
               <div class="content">
-                <div style="font-size:2vw; position:fixed; overflow: hidden; margin-left: 1%; margin-top: 0.5%;">
+                <div class="laptopbg">
                   <div>&#x1F4BE; &#128193; &#128195;</div>
                 </div>
-                <div style="display: flex; justify-content: center;margin: 2%; height:90%; width:95%;">
+                <div class="laptopwdw">
                   <div style="width: 100%; border-radius: 4px; background-color:#1f1f20; margin-top: 2%; z-index: 1;">
 
-                    <div
-                      style=" display:flex; width: 100%; height: 30px; background-color:lightgrey; border-radius: 4px 4px 0px 0px; color:rgb(0, 0, 0);">
+                    <div class="tabwdw">
                       <div style="display:flex; width: 100%; align-items: center; justify-content: center; z-index:10;">
-
-
-                        <p style="font-size:0.9vw; margin-left: 2%; width: 100%; color:black;">&#128193;/ &#128195;
+                        <p >&#128193;/ &#128195;
                           factsheet.marcobarbato</p>
                       </div>
-                      <div style="display: flex; margin-right: 2%;">
+
+                      <div class="dots">
                         <svg height="20" width="20">
                           <circle cx="15" cy="15" r="5" stroke="black" stroke-width="0" fill="lightgreen" />
                         </svg>
@@ -129,10 +123,20 @@
 
               </div>
             </div>
-
-
-
           </div>
+          <div class="factalt">
+            <ul>
+              <li><span>Geburtstag: </span>17.06.1993</li>
+              <li><span>Abschluss: </span> M.Sc.</li>
+              <li><span>Sprachen: </span> Deutsch, Englisch</li>
+              <li><span>Ort: </span> Reutlingen</li>
+              <li><span>Alter: </span> 28</li>
+              <li><span>Webseite: </span> xyz.de</li>
+              <li><span>E-Mail: </span> <span class="trythis">ed.bew[ta]otabrabocram</span></li>
+              <li><span>Telefon: </span> +123/123123</li>
+            </ul>
+
+        </div>
         </div>
 
       </div>
@@ -145,71 +149,69 @@
       <div class="introRef">
         <p class="outlined">Projekte.</p>
 
-        <div
-          style="display: flex;align-items: center; margin-right: 10%;border-top:1px solid lightgray;border-bottom: 1px solid lightgray; padding:36px;">
-          <div style="width: 60%;" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <div class="pro">
+          <div class="pro_image" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
             <div>
-              <a href="https://mb-repo.github.io/hp/" target="_blank"><img src="img/hp1.jpg" alt="Italian Trulli"
-                 style="opacity: 0.8; border-radius: 4px; width: 100%; height:auto"></a>
+              <a href="https://mb-repo.github.io/hp/" target="_blank"><img src="img/hp1.jpg" alt="Italian Trulli"></a>
             </div>
           </div>
-          <div style="padding-left:24px; width:60%; z-index: 1; margin-left: -10%;" data-aos="fade-left" data-aos-offset="300"
-            data-aos-easing="ease-in-sine">
+
+          <div class="pro_text" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
             <div>
-              <h1 style="margin:0;font-size: 3.5vw;"> <mark>React App</mark> </h1>
+              <h1> <mark>React App</mark> </h1>
             </div>
-            <p style="font-size:1.2vw; text-align: justify;">
+            <p>
               Mein erstes Projekt war eine auf React basierte Homepage, bei der mit States ein Dark/Light-Mode getoggled
-              werden kann. Dieses Projekt hat ungefähr 2 Tage benötigt.
+              werden kann. Dieses Projekt hat ungefähr 2 Tage benötigt. 
+              <p id="linkerino">  <a href="https://mb-repo.github.io/hp/" target="_blank">https://mb-repo.github.io/hp/ </a></p>
             </p>
           </div>
         </div>
 
-        <div
-          style="display: flex;align-items: center; margin-right: 10%;border-top:1px solid lightgray;border-bottom: 1px solid lightgray; padding:36px;">
-          <div style="width: 60%;" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <div class="pro">
+          <div class="pro_image" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
             <div>
               <div>
-                <a href="https://mb-repo.github.io/resume/" target="_blank"> <img src="img/projekt2.png"
-                    alt="homepage bootstrap" height="500px" style="opacity: 0.3; border-radius: 4px;width: 100%; height:auto"></a>
+                <a href="https://mb-repo.github.io/resume/" target="_blank"> <img id="optionalstuff" src="img/projekt2.png"
+                    alt="homepage bootstrap" height="500px"
+                    style="opacity: 0.3;"></a>
 
               </div>
             </div>
           </div>
-          <div style="padding-left:24px; width:60%; z-index: 1; margin-left: -10%;" data-aos="fade-left" data-aos-offset="300"
-            data-aos-easing="ease-in-sine">
+          <div class="pro_text" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
             <div>
-              <h1 style="margin:0;font-size: 3.5vw;"> <mark>Bootstrap Website</mark> </h1>
+              <h1> <mark>Bootstrap Website</mark> </h1>
             </div>
-            <p style="font-size:1.2vw; text-align: justify;">
+            <p>
               Nach meiner ersten React-Anwendung habe ich eine weitere App mit dem Bootstrap Framework erstellt. Das
               Grundgerüst der Seite war ein vorhandenes Template, welches ich meinen Anforderungen nach customized habe.
               Hierfür habe ich ungefähr 4 Tage benötigt.
+              <p id="linkerino">  <a href="https://mb-repo.github.io/resume/" target="_blank">https://mb-repo.github.io/resume/ </a></p>
             </p>
           </div>
         </div>
 
-        <div
-          style="display: flex;align-items: center; margin-right: 10%;border-top:1px solid lightgray;border-bottom: 1px solid lightgray; padding:36px;">
-          <div style="width: 60%;" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <div class="pro">
+          <div class="pro_image" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
             <div>
               <div>
                 <a href=" https://mb-repo.github.io/hppure/" target="_blank">
                   <img src="img/hp2.jpg" alt="homepage css html js" height="500px"
-                    style="opacity: 0.3; border-radius: 4px;width: 100%; height:auto"></a>
+                    style="opacity: 0.3;"></a>
               </div>
             </div>
           </div>
-          <div style="padding-left:24px; width:60%; z-index: 1; margin-left: -10%;" data-aos="fade-left" data-aos-offset="300"
-            data-aos-easing="ease-in-sine">
+          <div class="pro_text" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
             <div>
-              <h1 style="margin:0;font-size: 3.5vw;"> <mark>Klassische Website</mark> </h1>
+              <h1> <mark>Klassische Website</mark> </h1>
             </div>
-            <p style="font-size:1.2vw; text-align: justify;">
+            <p>
               Nachdem ich eine Homepage mittels React und Bootstrap erstellt habe, habe ich mich dafür entschieden eine
               Seite mit purem vanilla CSS, HTML und Javascript zu bauen.
               Aufbauend auf dieser habe ich dann die Seite auf der Sie sich aktuell befinden entwickelt. Dieses Projekt
               hat ungefähr 7 Tage benötigt.
+              <p id="linkerino">  <a href="https://mb-repo.github.io/hppure/" target="_blank">https://mb-repo.github.io/hppure/ </a></p>
             </p>
           </div>
         </div>
@@ -225,12 +227,11 @@
       <div class="introLB" style="margin-left: 10%; margin-right:10%; overflow: hidden;">
         <p class="outlined">Lebenslauf.</p>
 
-        <div
-          style="margin-right: 10%; display:flex; justify-content: space-between; align-items: center; border-top: 1px solid lightgrey; border-bottom: 1px solid lightgrey;width: 100%;">
+        <div class="resume_inf">
           <div style="width: 55%;">
-            <h2 style="font-size:2.5vw;font-weight: bold; color: #FAC921;">Master of Science - Wirtschaftsinformatik</h2>
-            <p style="font-size:1.3vw;">&#128205; Universität Hohenheim/Universität Stuttgart</p>
-            <ul style="font-size:1.2vw; line-height: 1.3; color:#989898">
+            <h2>Master of Science - Wirtschaftsinformatik</h2>
+            <p>&#128205; Universität Hohenheim/Universität Stuttgart</p>
+            <ul>
               <li>Vertiefung in Strategisches
                 Informationsmanagement, Service
                 Operations Management, Entrepreneurship, Management von IT-Unternehmen und Unternehmenssoftware,
@@ -247,14 +248,13 @@
           </div>
         </div>
 
-        <div
-        style="margin-right: 10%; display:flex; justify-content: space-between; align-items: center; border-top: 1px solid lightgrey; border-bottom: 1px solid lightgrey;width: 100%;">
+        <div class="resume_inf">
 
           <div style="width: 55%;">
-            <h2 style="font-size:2.5vw;font-weight: bold; color: #FAC921;">Bachelorand</h2>
-            <p style="font-size:1.3vw;">&#128205; Daimler AG - Stuttgart-Möhringen</p>
+            <h2>Bachelorand</h2>
+            <p>&#128205; Daimler AG - Stuttgart-Möhringen</p>
 
-            <ul style="font-size:1.2vw; line-height: 1.3; color:#989898">
+            <ul>
               <li>Erfassung und Analyse des aktuellen Requirements Engineering-Prozesses</li>
               <li>Erarbeitung von Optimierungsmaßnahmen</li>
               <li>Erarbeitung eines geeigneten SOLL-Prozesses für das Requirements Engineering</li>
@@ -272,14 +272,13 @@
         </div>
 
 
-        <div
-        style="margin-right: 10%; display:flex; justify-content: space-between; align-items: center; border-top: 1px solid lightgrey; border-bottom: 1px solid lightgrey;width: 100%;">
+        <div class="resume_inf">
 
           <div style="width: 55%;">
-            <h2 style="font-size:2.5vw;font-weight: bold; color: #FAC921;">Praktikant</h2>
-            <p style="font-size:1.3vw;">&#128205; Daimler AG - Stuttgart-Möhringen</p>
+            <h2>Praktikant</h2>
+            <p>&#128205; Daimler AG - Stuttgart-Möhringen</p>
 
-            <ul style="font-size:1.2vw; line-height: 1.3; color:#989898">
+            <ul>
               <li>Weiterentwicklung des IT-Service-Delivery-Models</li>
               <li>Unterstützung der IT-Organisation in den Service Delivery Prozessen</li>
               <li>Erstellung von Best Practices</li>
@@ -295,13 +294,11 @@
         </div>
 
 
-        <div
-        style="margin-right: 10%; display:flex; justify-content: space-between; align-items: center; border-top: 1px solid lightgrey; border-bottom: 1px solid lightgrey;width: 100%;">
-
+        <div class="resume_inf">
           <div style="width: 60%;">
-            <h2 style="font-size:2.5vw;font-weight: bold; color: #FAC921;">Bachelor of Science - Wirtschaftsinformatik</h2>
-            <p style="font-size:1.3vw;">&#128205; Hochschule für Technik Stuttgart</p>
-            <ul style="font-size:1.2vw; line-height: 1.3; color:#989898">
+            <h2>Bachelor of Science - Wirtschaftsinformatik</h2>
+            <p>&#128205; Hochschule für Technik Stuttgart</p>
+            <ul>
               <li>Vertiefung in Pervasive Computing,
                 Logistik und
                 Beschaffung, IT-Infrastrukturmanagement</li>
@@ -317,7 +314,7 @@
           </div>
         </div>
 
-        <div style="margin-right: 10%; font-size: 1.4vw;padding-top: 24px;">
+        <div class="ll">
           <a href="assets/Lebenslauf_BarbatoMarco.pdf" download="filename" target="_blank">Download Lebenslauf</a> </p>
         </div>
       </div>
@@ -332,44 +329,51 @@
       <p class="outlined" style="margin-left: 10%;">Skills.</p>
     </div>
 
-    <div  style="margin-left:10%;margin-right:10%;height:auto; display: flex; flex-wrap: wrap; justify-content: space-between;color:white; padding-top: 5%;padding-bottom: 5%">
-     
-      <div class="skiill" style="min-width: 25%;max-width: 25%; margin-bottom: 4rem; padding: 1rem; justify-content: center;flex-direction: column; display:flex ">
-        <h1 class="replies" style="font-size: 2vw; margin-bottom:0; margin-left:2%;">HTML</h1>
-        <p class="replies" style="font-size: 1.5vw;  margin-top:0; margin-left: 2%;color: #bebebe;">Erweiterte Kenntnisse</p>
-        <span class="comment" style="font-size: 1.2vw; justify-content: center;">Während der Freizeit verschiedene Webseiten erstellt. 
+    <div class="skill-cards">
+
+      <div class="skiill">
+        <h1>HTML</h1>
+        <p class="replies">Erweiterte Kenntnisse</p>
+        <span class="comment">Während der Freizeit verschiedene
+          Webseiten erstellt.
           Beispiele bei den Referenzen zu sehen.</span>
       </div>
 
-      <div class="skiill" style="min-width: 25%;max-width: 25%; margin-bottom: 4rem; padding: 1rem; justify-content: center;flex-direction: column; display:flex ">
-        <h1 class="replies" style="font-size: 2vw; margin-bottom:0; margin-left:2%;">CSS</h1>
-        <p class="replies" style="font-size: 1.5vw;  margin-top:0; margin-left: 2%;color: #bebebe;">Erweiterte Kenntnisse</p>
-        <span class="comment" style="font-size: 1.2vw; justify-content: center;">Ebenfalls wie HTML, während der Freizeit erlernt und Projekte umgesetzt. Beispiele bei den Referenzen zu sehen.
+      <div class="skiill">
+        <h1>CSS</h1>
+        <p class="replies">Erweiterte Kenntnisse</p>
+        <span class="comment">Ebenfalls wie HTML, während der
+          Freizeit erlernt und Projekte umgesetzt. Beispiele bei den Referenzen zu sehen.
         </span>
       </div>
 
-      <div class="skiill" style="min-width: 25%;max-width: 25%; margin-bottom: 4rem; padding: 1rem; justify-content: center;flex-direction: column; display:flex ">
-        <h1 class="replies" style="font-size: 2vw; margin-bottom:0; margin-left:2%;">JAVA</h1>
-        <p class="replies" style="font-size: 1.5vw;  margin-top:0; margin-left: 2%;color: #bebebe;">Grundkenntnisse</p>
-        <span class="comment" style="font-size: 1.2vw; justify-content: center;">Während dem Bachelorstudium verschiedene Vorlesungen gehabt, inklusive Studienprojekt und schriftliche Prüfungen.</span>
+      <div class="skiill">
+        <h1 class="replies">JAVA</h1>
+        <p class="replies">Grundkenntnisse</p>
+        <span class="comment">Während dem Bachelorstudium
+          verschiedene Vorlesungen gehabt, inklusive Studienprojekt und schriftliche Prüfungen.</span>
       </div>
 
-      <div class="skiill" style="min-width: 25%;max-width: 25%; margin-bottom: 4rem; padding: 1rem; justify-content: center;flex-direction: column; display:flex ">
-        <h1 class="replies" style="font-size: 2vw; margin-bottom:0; margin-left:2%;">ABAP</h1>
-        <p class="replies" style="font-size: 1.5vw;  margin-top:0; margin-left: 2%;color: #bebebe;">Grundkenntnisse</p>
-        <span class="comment" style="font-size: 1.2vw; justify-content: center;">Während dem Bachelor kleinere Anwendungen im Rahmen einer Vorlesung entwickelt. Inklusive Programmierprüfung.</span>
+      <div class="skiill">
+        <h1 class="replies">ABAP</h1>
+        <p class="replies">Grundkenntnisse</p>
+        <span class="comment">Während dem Bachelor kleinere
+          Anwendungen im Rahmen einer Vorlesung entwickelt. Inklusive Programmierprüfung.</span>
       </div>
 
-      <div class="skiill" style="min-width: 25%;max-width: 25%; margin-bottom: 4rem; padding: 1rem; justify-content: center;flex-direction: column; display:flex ">
-        <h1 class="replies" style="font-size: 2vw; margin-bottom:0; margin-left:2%;">BPMN</h1>
-        <p class="replies" style="font-size: 1.5vw;  margin-top:0; margin-left: 2%;color: #bebebe;">Erweiterte Kenntnisse</p>
-        <span class="comment" style="font-size: 1vw; justify-content: center;">Zunächst im Studium kennengelernt, dann während meines Praktikums eingesetzt um Prozesse abzubilden. Den in der Bachelorarbeit entwickelten Prozess ebenfalls mittels BPMN abgebildet.</span>
+      <div class="skiill">
+        <h1>BPMN</h1>
+        <p class="replies">Erweiterte Kenntnisse</p>
+        <span class="comment">Zunächst im Studium kennengelernt, dann
+          während meines Praktikums eingesetzt um Prozesse abzubilden. Den in der Bachelorarbeit entwickelten Prozess
+          ebenfalls mittels BPMN abgebildet.</span>
       </div>
 
-      <div class="skiill" style="min-width: 25%;max-width: 25%; margin-bottom: 4rem; padding: 1rem; justify-content: center;flex-direction: column; display:flex ">
-        <h1 class="replies" style="font-size: 2vw; margin-bottom:0; margin-left:2%;">MS-POWERPOINT</h1>
-        <p class="replies" style="font-size: 1.5vw;  margin-top:0; margin-left: 2%;color: #bebebe;">Erweiterte Kenntnisse</p>
-        <span class="comment" style="font-size: 1.2vw; justify-content: center;">Während meiner Bachelor-/Masterarbeit praktisch verwendet um Meetings vor- bzw. nachzubereiten.</span>
+      <div class="skiill">
+        <h1>MS-POWERPOINT</h1>
+        <p class="replies">Erweiterte Kenntnisse</p>
+        <span class="comment">Während meiner Bachelor-/Masterarbeit
+          praktisch verwendet um Meetings vor- bzw. nachzubereiten.</span>
       </div>
 
     </div>
@@ -386,9 +390,9 @@
         <p class="outlined">Interessen.</p>
 
 
-        <div
-          style="display: flex;align-items: center; margin-right: 10%;border-top:1px solid lightgray;border-bottom: 1px solid lightgray; padding:36px;">
-          <div style="width: 40%;" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <div class="videoint">
+          <div class="videos" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+
             <div>
               <video muted autoplay loop>
                 <source src="assets/chess.mp4" type="video/mp4">
@@ -396,11 +400,11 @@
               </video>
             </div>
           </div>
-          <div style="padding-left:24px; width:60%">
+          <div class="int_text_right">
             <div>
-              <h1 style="margin:0;font-size: 72px;"> <mark>Schach</mark></h1>
+              <h1> <mark>Schach</mark></h1>
             </div>
-            <p style="font-size:1vw; color: lightgray; text-align: justify;">
+            <p>
               Vorrangig spiele ich online auf Chess.com, dort habe ich ca. 400 Partien gespielt und 1.500 Taktikaufgaben
               gelöst. Neben dem Verbessern meiner Konzentration und dem Stärken des Gedächtnisses gehört auch das
               Trainieren des
@@ -411,23 +415,20 @@
         </div>
 
 
-        <div
-          style="display: flex;align-items: center; margin-right: 10%;border-top:1px solid lightgray;border-bottom:1px solid lightgray; padding:36px;">
-
-
-          <div style="width: 60%; padding-right:24px;">
+        <div class="videoint">
+          <div class="int_text_left">
             <div>
-              <h1 style="margin:0;font-size: 72px;"><mark>Fußball</mark></h1>
+              <h1 style="margin:0;font-size: 4vw;"><mark>Fußball</mark></h1>
             </div>
-            <p style="font-size:1vw; color: lightgray; text-align: justify;">
+            <p>
               Obwohl ich mittlerweile mit dem Vereinsfußball aufhören musste, spiele ich noch unregelmäßig aber gerne in
               meiner Freizeit Fußball. Vor allem verfolge ich die Vereine Inter Mailand und FC Barcelona.
               Was mich beim Fußball begeistert, ist der Aspekt als Kollektiv ein Ziel zu
               erreichen und der Zusammenhalt innerhalb einer Mannschaft.
             </p>
           </div>
-          <div style="width: 40%;" data-aos="fade-left">
-            <div style="">
+          <div class="videos" data-aos="fade-left">
+            <div>
               <video muted autoplay loop>
                 <source src="assets/football.mp4" type="video/mp4">
                 Your browser does not support the video tag.
@@ -436,9 +437,8 @@
           </div>
         </div>
 
-        <div
-          style="display: flex;align-items: center; margin-right: 10%;border-top:1px solid lightgray;border-bottom:1px solid lightgray; padding:36px;">
-          <div style="width: 40%;" data-aos="fade-right">
+        <div class="videoint">
+          <div class="videos" data-aos="fade-right">
             <div>
               <video muted autoplay loop>
                 <source src="assets/esports.mp4" height=400 type="video/mp4">
@@ -447,11 +447,11 @@
             </div>
           </div>
 
-          <div style="padding-left:24px; width:60%">
+          <div class="int_text_right">
             <div>
-              <h1 style="margin:0;font-size: 72px;"><mark>E-Sports</mark></h1>
+              <h1 style="margin:0;font-size: 4vw;"><mark>E-Sports</mark></h1>
             </div>
-            <p style="font-size:1vw; color: lightgray; text-align: justify;">
+            <p>
               Neben dem Anschauen von E-Sports Veranstaltungen, habe ich auch semiprofessionell mein Glück versucht in
               DotA. Dort konnte ich das 1% Perzentil der Gesamtzahl der Spieler erreichen. Neben dem Verbessern meiner
               Fähigkeiten
@@ -462,22 +462,19 @@
 
         </div>
 
-        <div
-          style="display: flex;align-items: center; margin-right: 10%;border-top:1px solid lightgray;border-bottom:1px solid lightgray; padding:36px;">
-
-
-          <div style="width: 60%; padding-right:24px;">
+        <div class="videoint">
+          <div class="int_text_left">
             <div>
-              <h1 style="margin:0;font-size: 72px;"><mark>PC-Building</mark></h1>
+              <h1 style="margin:0;font-size: 4vw;"><mark>PC-Building</mark></h1>
             </div>
-            <p style="font-size:1vw; color: lightgray; text-align: justify;">
+            <p>
               In meiner Freizeit konfiguriere ich für Bekannte und Freunde PCs und baue diese dann auch für sie
               zusammen. Das Zusammenspiel von Budget und Anforderungen bei der Zusammenstellung der Komponenten finde
               ich besonders interessant. Auch das Zusammenbauen und Aufsetzen ist immer wieder spannend für mich.
             </p>
           </div>
-          <div style="width: 40%;" data-aos="fade-left">
-            <div style="">
+          <div class="videos" data-aos="fade-left">
+            <div>
               <video muted autoplay loop>
                 <source src="assets/pc.mp4" type="video/mp4">
                 Your browser does not support the video tag.
