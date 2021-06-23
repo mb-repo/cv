@@ -752,7 +752,7 @@ video {
   justify-content: space-evenly;
 }
 
-.quicknav span:hover{
+.quicknav span:hover {
   opacity: 1;
   color: #FAC921;
 }
@@ -763,15 +763,15 @@ video {
 
 .skiill {
   min-height: 50%;
-  border-left:1px solid #FAC921;
-  background: linear-gradient(to right, #FAC921 50%,#2d2d32  49%);
+  border-left: 1px solid #FAC921;
+  background: linear-gradient(to right, #FAC921 50%, #2d2d32 49%);
   background-size: 200% 200%;
-  background-position:right bottom;
-  transition:all 1s ;
+  background-position: right bottom;
+  transition: all 1s;
 }
 
 .skiill:hover {
-  background-position:left bottom;
+  background-position: left bottom;
   transition-duration: 500ms;
 }
 
@@ -786,7 +786,13 @@ video {
 .skiill:hover .replies {
   display: none;
 }
+
 .skiill:hover .comment {
   display: flex;
-  color:black;
+  color: black;
+}
+
+.trythis {
+  unicode-bidi: bidi-override;
+  direction: rtl;
 }
