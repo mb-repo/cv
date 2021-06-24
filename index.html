@@ -23,12 +23,29 @@
         <span></span>
         <span></span>
       </div>
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+      </script>
+
+      <script>
+        //hide arrows
+        $(window).scroll(function () { 
+          if ($(this).scrollTop() > 5) {
+            $('.arrow').css({
+              'display': 'none'
+            });
+          }
+        });
+      </script>
+
+
       <div class="quicknav">
-        <a href="#aboutme" style="text-decoration: none"><span>.aboutme()</span> </a>
-        <a href="#ref" style="text-decoration: none"><span>.projects() </span></a>
-        <a href="#resu" style="text-decoration: none"><span>.resume() </span></a>
-        <a href="#ski" style="text-decoration: none"><span>.skills() </span></a>
-        <a href="#int" style="text-decoration: none"><span>.interests() </span></a>
+        <a href="#aboutme" style="text-decoration: none"><span> .aboutme() &nbsp;</span> </a>
+        <a href="#ref" style="text-decoration: none"><span> .projects() &nbsp; </span></a>
+        <a href="#resu" style="text-decoration: none"><span> .resume() &nbsp; </span></a>
+        <a href="#ski" style="text-decoration: none"><span> .skills() &nbsp; </span></a>
+        <a href="#int" style="text-decoration: none"><span> .interests() &nbsp; </span></a>
       </div>
       <div class="intro">
         <div><span>Hey! &#x1F44B;</span></div>
@@ -76,7 +93,7 @@
 
                     <div class="tabwdw">
                       <div style="display:flex; width: 100%; align-items: center; justify-content: center; z-index:10;">
-                        <p >&#128193;/ &#128195;
+                        <p>&#128193;/ &#128195;
                           factsheet.marcobarbato</p>
                       </div>
 
@@ -124,19 +141,27 @@
               </div>
             </div>
           </div>
-          <div class="factalt">
-            <ul>
-              <li><span>Geburtstag: </span>17.06.1993</li>
-              <li><span>Abschluss: </span> M.Sc.</li>
-              <li><span>Sprachen: </span> Deutsch, Englisch</li>
-              <li><span>Ort: </span> Reutlingen</li>
-              <li><span>Alter: </span> 28</li>
-              <li><span>Webseite: </span> xyz.de</li>
-              <li><span>E-Mail: </span> <span class="trythis">ed.bew[ta]otabrabocram</span></li>
-              <li><span>Telefon: </span> +123/123123</li>
-            </ul>
 
-        </div>
+
+
+          <div class="factalt">
+            <div class="tablet">
+              <div class="tcontent">
+                <div style="margin-left:3%">
+
+                  <ul>
+                    <li><span>Geburtstag: </span>17.06.1993</li>
+                    <li><span>Abschluss: </span> M.Sc.</li>
+                    <li><span>Sprachen: </span> De, Eng</li>
+                    <li><span>Ort: </span> Reutlingen</li>
+                    <li><span>Mail:</span><span class="trythis">ed.bew[ta]otabrabocram</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
         </div>
 
       </div>
@@ -162,8 +187,9 @@
             </div>
             <p>
               Mein erstes Projekt war eine auf React basierte Homepage, bei der mit States ein Dark/Light-Mode getoggled
-              werden kann. Dieses Projekt hat ungefähr 2 Tage benötigt. 
-              <p id="linkerino">  <a href="https://mb-repo.github.io/hp/" target="_blank">https://mb-repo.github.io/hp/ </a></p>
+              werden kann. Dieses Projekt hat ungefähr 2 Tage benötigt.
+            <p id="linkerino"> <a href="https://mb-repo.github.io/hp/" target="_blank">https://mb-repo.github.io/hp/
+              </a></p>
             </p>
           </div>
         </div>
@@ -172,9 +198,8 @@
           <div class="pro_image" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
             <div>
               <div>
-                <a href="https://mb-repo.github.io/resume/" target="_blank"> <img id="optionalstuff" src="img/projekt2.png"
-                    alt="homepage bootstrap" height="500px"
-                    style="opacity: 0.3;"></a>
+                <a href="https://mb-repo.github.io/resume/" target="_blank"> <img id="optionalstuff"
+                    src="img/projekt2.png" alt="homepage bootstrap" height="500px" style="opacity: 0.3;"></a>
 
               </div>
             </div>
@@ -187,7 +212,8 @@
               Nach meiner ersten React-Anwendung habe ich eine weitere App mit dem Bootstrap Framework erstellt. Das
               Grundgerüst der Seite war ein vorhandenes Template, welches ich meinen Anforderungen nach customized habe.
               Hierfür habe ich ungefähr 4 Tage benötigt.
-              <p id="linkerino">  <a href="https://mb-repo.github.io/resume/" target="_blank">https://mb-repo.github.io/resume/ </a></p>
+            <p id="linkerino"> <a href="https://mb-repo.github.io/resume/"
+                target="_blank">https://mb-repo.github.io/resume/ </a></p>
             </p>
           </div>
         </div>
@@ -197,8 +223,7 @@
             <div>
               <div>
                 <a href=" https://mb-repo.github.io/hppure/" target="_blank">
-                  <img src="img/hp2.jpg" alt="homepage css html js" height="500px"
-                    style="opacity: 0.3;"></a>
+                  <img src="img/hp2.jpg" alt="homepage css html js" height="500px" style="opacity: 0.3;"></a>
               </div>
             </div>
           </div>
@@ -211,7 +236,8 @@
               Seite mit purem vanilla CSS, HTML und Javascript zu bauen.
               Aufbauend auf dieser habe ich dann die Seite auf der Sie sich aktuell befinden entwickelt. Dieses Projekt
               hat ungefähr 7 Tage benötigt.
-              <p id="linkerino">  <a href="https://mb-repo.github.io/hppure/" target="_blank">https://mb-repo.github.io/hppure/ </a></p>
+            <p id="linkerino"> <a href="https://mb-repo.github.io/hppure/"
+                target="_blank">https://mb-repo.github.io/hppure/ </a></p>
             </p>
           </div>
         </div>
@@ -489,7 +515,7 @@
 
   <!--Outro-->
   <div>
-    <div class="panel" data-color="white" style="flex-direction: column;">
+    <div class="panel" data-color="white" style="flex-direction: column; height: 100vh;">
 
       <div class="outro" data-aos="slide-up" data-aos-duration="2000">
         <h1>Immer noch hier?</h1>
