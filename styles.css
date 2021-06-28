@@ -8,7 +8,6 @@
 }
 
 * {
- 
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -40,6 +39,10 @@ ul {
 ul li:before {
   content: "\00BB \0020";
   color: #FAC921;
+}
+
+.factphone {
+  display: none;
 }
 
 /* The laptop with borders */
@@ -532,6 +535,7 @@ mark {
 }
 
 /* The device with bevel */
+
 .tablet {
   position: relative;
   width: 75%;
@@ -547,6 +551,7 @@ mark {
 }
 
 /* The camera */
+
 .tablet .tcontent:before {
   content: '';
   display: block;
@@ -561,6 +566,7 @@ mark {
 }
 
 /* The side button */
+
 .tablet .tcontent:after {
   content: '';
   display: block;
@@ -575,13 +581,13 @@ mark {
 }
 
 /* The screen content */
+
 .tablet .tcontent {
   width: 100%;
   height: 100%;
   border-radius: 10px;
   background: white;
 }
-
 
 /* panel styles */
 
@@ -925,6 +931,11 @@ video {
   direction: rtl;
 }
 
+.trythisno {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+
 .videoint {
   display: flex;
   align-items: center;
@@ -963,17 +974,15 @@ video {
   * {
     transition: ease all;
   }
-.panel{
-  min-height: 50vh;
-}
-
-  .intro{
+  .panel {
+    min-height: 50vh;
+  }
+  .intro {
     padding-bottom: 5%;
   }
-  .arrow{
-    display:none;
+  .arrow {
+    display: none;
   }
-
   .aboutmetxt {
     width: 40%;
   }
@@ -981,32 +990,25 @@ video {
     display: none;
   }
   .factalt {
+    min-height: 300px;
     display: block;
     width: 50%;
   }
-  .factalt ul { 
+  .factalt ul {
     font-size: calc(12px + 0.6vw);
     line-height: 3;
-
   }
- 
   ul li:before {
     content: none;
   }
-
- 
-  .facterinos{
+  .facterinos {
     width: 100%;
-    margin-left:-5%;
+    margin-left: -5%;
     justify-content: space-evenly;
-
   }
-
-  .introAM{
+  .introAM {
     padding-bottom: 0;
   }
-
-
   img#optionalstuff {
     display: none;
   }
@@ -1064,5 +1066,66 @@ video {
   .int_text_left {
     width: 100%;
     padding-right: 0;
+  }
+  .factphone {
+    display: none;
+  }
+}
+
+@media (max-width:662px){
+  .factalt {
+    display: none;
+  }
+  .aboutmetxt {
+    width: 90%;
+  }
+  .factphone {
+    display: block;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .introRef {
+    padding-bottom: 40px;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .quicknav {
+    right: 0;
+    left: 0;
+    top: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .introTwo span {
+    font-size: 40px;
+  }
+  .factalt {
+    display: none;
+  }
+  .aboutmetxt {
+    width: 90%;
+  }
+  .factphone {
+    display: block;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .introRef {
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 400px){
+  .quicknav{
+    display:none;
+  }
+  .intro span{
+    font-size: 30px;
+  }
+  .introTwo span {
+    font-size: 30px;
   }
 }
