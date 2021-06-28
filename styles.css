@@ -1116,6 +1116,15 @@ video {
   .introRef {
     padding-bottom: 40px;
   }
+  .outro{
+    font-size: 24px;
+    line-height: 1.2;
+  }
+    .marquee{
+      display: none;
+    }
+
+
 }
 
 @media (max-width: 400px){
@@ -1143,11 +1152,5 @@ video {
   .introTwo span {
     font-size: 36px;
   }
-.outro{
-  font-size: 24px;
-  line-height: 1.2;
-}
-  .marquee{
-    display: none;
-  }
+
 }
