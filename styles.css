@@ -1119,7 +1119,7 @@ video {
     font-size: 24px;
     line-height: 1.2;
   }
-  .marquee {
+  .footer {
     display: none;
   }
 }
@@ -1129,7 +1129,7 @@ video {
     display: none;
   }
   .intro {
-    padding-bottom: 15%;
+    padding-bottom: 35%;
     position: absolute;
   }
   .pro {
@@ -1146,5 +1146,8 @@ video {
   }
   .introTwo span {
     font-size: 36px;
+  }
+  .footer {
+    display: none;
   }
 }
