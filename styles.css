@@ -708,6 +708,27 @@ video {
   }
 }
 
+.emoji {
+  text-align: left;
+}
+
+.emoji::after {
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.wave::after {
+  content: '✋';
+  --emoji: '👋';
+  animation-name: twoFrames;
+  animation-duration: 2s;
+}
+@keyframes twoFrames {
+  50% {
+      content: var(--emoji);
+  }
+}
+
+
 .quicknav {
   position: absolute;
   top: 3%;
@@ -720,6 +741,7 @@ video {
 .quicknav span:hover {
   opacity: 1;
   color: #FAC921;
+  text-decoration:overline;
 }
 
 .facterinos {
