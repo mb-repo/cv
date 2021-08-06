@@ -5,6 +5,7 @@
   --text-secondary: #ececec;
   --bg-primary: #23232e;
   --bg-secondary: #141414;
+  user-select: none;
 }
 
 * {
